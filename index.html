@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('https://media.istockphoto.com/id/477110708/photo/weather-forecast.jpg?s=612x612&w=0&k=20&c=plbIXX9mIs7G92x_HBc5KgbbHef5S-V130t9SqAabKI='); background-size: cover; background-position: center;">
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <div class="search-bar">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button class="searchBtn" id="searchBtn">Search</button>
+            <button id="unitToggle">°C</button> <!-- Unit Toggle Button -->
+        </div>
+        <div class="weather-info">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="weatherDescription"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
